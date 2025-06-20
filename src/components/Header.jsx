@@ -11,12 +11,12 @@ import {
 
 const Header = () => {
   return (
-    <header className="bg-headerColor py-4 border-b-[5px] border-[#FFB800]">
+    <header className="bg-headerBgColor py-4 border-b-[5px] border-[#FFB800]">
       <Container>
         <div className="flex items-center">
           <div className="w-3/12">
             <div className="flex items-center">
-              <IoMailUnreadOutline className="text-white mr-[5px] text-[20px]" />
+              <IoMailUnreadOutline className="text-white mr-[8px] text-[20px]" />
               <p className="text-white text-[12px] font-poppins font-normal">
                 mail@yourcompany.com
               </p>
@@ -24,7 +24,7 @@ const Header = () => {
           </div>
           <div className="w-3/12">
             <div className="flex items-center">
-              <LuPhoneCall className="text-white mr-[5px] text-[20px]" />
+              <LuPhoneCall className="text-white mr-[8px] text-[20px]" />
               <p className="text-white text-[12px] font-poppins font-normal">
                 +896 120 5889 (Toll free)
               </p>
