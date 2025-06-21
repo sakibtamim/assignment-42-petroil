@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import Logo from "../assets/logo.png";
 import Container from "./Container";
+import { IoMenu, IoCloseOutline } from "react-icons/io5";
 
 const Menu = () => {
+  const [show, setShow] = useState(false);
+
+  let handleShow = () => {
+    setShow(!show);
+  };
   return (
     <div className="bg-menuBgColor">
       <Container>
@@ -66,6 +72,9 @@ const Menu = () => {
                 </a>
               </li>
             </ul>
+          </div>
+          <div className="lg:hidden " onClick={handleShow}>
+            {show ? <IoCloseOutline /> : <IoMenu />}
           </div>
         </div>
       </Container>
