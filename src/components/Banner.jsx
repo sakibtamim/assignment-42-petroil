@@ -11,14 +11,12 @@ const Banner = () => {
       }}
     >
       <Container>
-        <div className="w-10/12 ">
-          <h1 className="text-[64px] font-bold font-poppins text-white ">
+        <div className="w-9/12 ">
+          <h1 className="text-[64px] font-bold font-poppins text-white pb-7.5">
             We exist since 1975 on the oil and gas industry.
           </h1>
-        </div>
-        <div className="w-2/12 mt-7.5">
           <a
-            className=" text-[16px] font-semibold font-poppins text-white bg-[#F40404] px-10 py-3.5"
+            className=" inline-block text-[16px] font-semibold font-poppins text-white bg-[#F40404] px-10 py-3.5"
             href=""
           >
             LEARN MORE
