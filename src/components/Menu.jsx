@@ -9,6 +9,7 @@ const Menu = () => {
   let handleShow = () => {
     setShow(!show);
   };
+
   return (
     <div className="bg-menuBgColor">
       <Container>
