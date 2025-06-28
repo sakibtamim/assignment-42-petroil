@@ -3,5 +3,6 @@
 @theme {
   --color-headerBgColor: #282828;
   --color-menuBgColor: #f40404;
+  --color-learnAboutBg: #f0f0f0;
   --font-poppins: "Poppins", sans-serif;
 }
