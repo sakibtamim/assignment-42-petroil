@@ -18,7 +18,7 @@ const Service = () => {
           </div>
         </div>
         <div
-          className="w-1/2 bg-cover bg-center flex justify-center"
+          className="w-1/2 bg-cover bg-center pl-[116px]"
           style={{
             backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('/servicebg01.png')`,
           }}
@@ -38,7 +38,7 @@ const Service = () => {
           </div>
         </div>
         <div
-          className="w-1/2 bg-cover bg-center flex justify-center"
+          className="w-1/2 bg-cover bg-center pl-[116px]"
           style={{
             backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('/servicebg02.png')`,
           }}
@@ -58,7 +58,7 @@ const Service = () => {
           </div>
         </div>
         <div
-          className="w-1/2 bg-cover bg-center flex justify-center"
+          className="w-1/2 bg-cover bg-center pl-[116px]"
           style={{
             backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('/servicebg03.png')`,
           }}
