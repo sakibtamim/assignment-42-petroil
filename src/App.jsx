@@ -1,4 +1,5 @@
 import Banner from "./components/Banner";
+import BrandLogo from "./components/BrandLogo";
 import Gallery from "./components/Gallery";
 
 import Header from "./components/Header";
@@ -17,6 +18,7 @@ function App() {
       <Gallery />
       <Service />
       <LearnAbout />
+      <BrandLogo />
     </>
   );
 }
