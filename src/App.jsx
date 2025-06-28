@@ -1,8 +1,8 @@
 import Banner from "./components/Banner";
 import Blog from "./components/Blog";
 import BrandLogo from "./components/BrandLogo";
+import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
-
 import Header from "./components/Header";
 import LearnAbout from "./components/LearnAbout";
 import Location from "./components/Location";
@@ -23,6 +23,7 @@ function App() {
       <BrandLogo />
       <Blog />
       <Location />
+      <Contact />
     </>
   );
 }
