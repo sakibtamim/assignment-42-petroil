@@ -1,13 +1,12 @@
 import React from "react";
 import Container from "./Container";
-import BannerBg from "../assets/bannerbg.png";
 
 const Banner = () => {
   return (
     <div
-      className=" relative bg-cover bg-center bg-no-repeat lg:py-64 py-10 "
+      className={`relative bg-[url(../../public/bannerbg.png)] bg-cover bg-center bg-no-repeat lg:py-64 py-10 `}
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${BannerBg})`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('/bannerbg.png')`,
       }}
     >
       <Container>
