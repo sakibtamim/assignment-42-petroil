@@ -5,6 +5,7 @@ import Gallery from "./components/Gallery";
 
 import Header from "./components/Header";
 import LearnAbout from "./components/LearnAbout";
+import Location from "./components/Location";
 import Menu from "./components/Menu";
 import Service from "./components/Service";
 import Wellcome from "./components/Wellcome";
@@ -21,6 +22,7 @@ function App() {
       <LearnAbout />
       <BrandLogo />
       <Blog />
+      <Location />
     </>
   );
 }
