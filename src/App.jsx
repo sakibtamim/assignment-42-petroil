@@ -3,6 +3,7 @@ import Gallery from "./components/Gallery";
 
 import Header from "./components/Header";
 import Menu from "./components/Menu";
+import Service from "./components/Service";
 import Wellcome from "./components/Wellcome";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Banner />
       <Wellcome />
       <Gallery />
+      <Service />
     </>
   );
 }

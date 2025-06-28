@@ -4,7 +4,7 @@ import Container from "./Container";
 const Banner = () => {
   return (
     <div
-      className={`relative bg-[url(../../public/bannerbg.png)] bg-cover bg-center bg-no-repeat lg:py-64 py-10 `}
+      className={` bg-cover bg-center bg-no-repeat lg:py-64 py-10 `}
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('/bannerbg.png')`,
       }}
