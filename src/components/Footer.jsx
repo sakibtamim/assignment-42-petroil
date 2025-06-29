@@ -16,16 +16,16 @@ import { LuMapPinned } from "react-icons/lu";
 const Footer = () => {
   return (
     <>
-      <div className="py-[129px] bg-footerBgColor">
+      <div className="lg:py-[129px] py-[50px] bg-footerBgColor">
         <Container>
-          <div className="flex">
-            <div className="w-5/12 ">
-              <div className="pb-[33px]">
+          <div className="flex flex-wrap">
+            <div className="lg:w-5/12 w-full ">
+              <div className="lg:pb-[33px] pb-[16px]">
                 <img src={FooterLogo} alt="" />
               </div>
               <ul>
-                <div className="flex items-center">
-                  <MdOutlineMailLock className="text-[20px] text-white" />
+                <div className="flex items-center lg:gap-2 gap-1">
+                  <MdOutlineMailLock className="lg:text-[20px] text-[16px] text-white" />
                   <li>
                     <a
                       href="#"
@@ -35,8 +35,8 @@ const Footer = () => {
                     </a>
                   </li>
                 </div>
-                <div className="flex items-center py-[15px]">
-                  <FiPhoneCall className="text-[20px] text-white" />
+                <div className="flex items-center lg:gap-2 gap-1 py-[15px]">
+                  <FiPhoneCall className="lg:text-[20px] text-[16px] text-white" />
                   <li>
                     <a
                       href="#"
@@ -46,8 +46,8 @@ const Footer = () => {
                     </a>
                   </li>
                 </div>
-                <div className="flex items-center">
-                  <LuMapPinned className="text-[20px] text-white" />
+                <div className="flex items-center lg:gap-2 gap-1">
+                  <LuMapPinned className="lg:text-[20px] text-[16px] text-white" />
                   <li>
                     <a
                       href="#"
@@ -85,49 +85,47 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <div className="w-2/12 pt-[30px]">
-              <div className="">
-                <h3 className="pb-[15px] text-white font-poppins font-bold text-[16px] ">
-                  Company
-                </h3>
-                <ul>
-                  <li className="pb-[15px]">
-                    <a
-                      href="#"
-                      className="font-poppins font-normal text-[14px] text-white "
-                    >
-                      Home
-                    </a>
-                  </li>
-                  <li className="pb-[15px]">
-                    <a
-                      href="#"
-                      className="font-poppins font-normal text-[14px] text-white"
-                    >
-                      About
-                    </a>
-                  </li>
-                  <li className="pb-[15px]">
-                    <a
-                      href="#"
-                      className="font-poppins font-normal text-[14px] text-white"
-                    >
-                      Services
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className="font-poppins font-normal text-[14px] text-white"
-                    >
-                      Gallery
-                    </a>
-                  </li>
-                </ul>
-              </div>
+            <div className="lg:w-2/12 w-1/2 pt-[30px]">
+              <h3 className="pb-[15px] text-white font-poppins font-bold text-[16px] ">
+                Company
+              </h3>
+              <ul>
+                <li className="pb-[15px]">
+                  <a
+                    href="#"
+                    className="font-poppins font-normal text-[14px] text-white "
+                  >
+                    Home
+                  </a>
+                </li>
+                <li className="pb-[15px]">
+                  <a
+                    href="#"
+                    className="font-poppins font-normal text-[14px] text-white"
+                  >
+                    About
+                  </a>
+                </li>
+                <li className="pb-[15px]">
+                  <a
+                    href="#"
+                    className="font-poppins font-normal text-[14px] text-white"
+                  >
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="font-poppins font-normal text-[14px] text-white"
+                  >
+                    Gallery
+                  </a>
+                </li>
+              </ul>
             </div>
 
-            <div className="w-2/12 pt-[30px]">
+            <div className="lg:w-2/12 w-1/2 pt-[30px]">
               <div className="">
                 <h3 className="pb-[15px] text-white font-poppins font-bold text-[16px] ">
                   Others
@@ -168,7 +166,7 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="w-3/12 pt-[30px] lg:pl-[60px]">
+            <div className="lg:w-3/12  pt-[30px] lg:pl-[60px]">
               <div className="">
                 <h3 className="pb-[15px] font-poppins font-bold text-[16px] text-white">
                   Certificate
@@ -189,7 +187,7 @@ const Footer = () => {
       <div className="bg-footerBtmBgColor">
         <Container>
           <div className="w-full ">
-            <p className="py-[42px] text-[#6C6C6C] font-poppins font-medium">
+            <p className="lg:py-[42px] py-[20px] text-[#6C6C6C] font-poppins font-medium lg:text-[16px] text-[10px] text-center">
               © Copyright 2022 by AltDesain Studio – All right reserved.
             </p>
           </div>
