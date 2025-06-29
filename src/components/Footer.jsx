@@ -187,7 +187,7 @@ const Footer = () => {
       <div className="bg-footerBtmBgColor">
         <Container>
           <div className="w-full ">
-            <p className="lg:py-[42px] py-[20px] text-[#6C6C6C] font-poppins font-medium lg:text-[16px] text-[10px] text-center">
+            <p className="lg:py-[42px] py-[20px] text-[#6C6C6C] font-poppins font-medium lg:text-[16px] text-[10px] text-center lg:text-start">
               © Copyright 2022 by AltDesain Studio – All right reserved.
             </p>
           </div>
