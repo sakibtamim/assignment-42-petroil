@@ -10,8 +10,8 @@ const Banner = () => {
       }}
     >
       <Container>
-        <div className="w-9/12  pl-4 lg:pl-0">
-          <h1 className="lg:text-[64px] text-[16px] font-bold font-poppins text-white lg:pb-7.5 pb-3.5">
+        <div className="w-9/12 ">
+          <h1 className="lg:text-[64px] text-[20px] font-bold font-poppins text-white lg:pb-7.5 pb-3.5">
             We exist since 1975 on the oil and gas industry.
           </h1>
           <a
