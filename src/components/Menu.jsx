@@ -18,10 +18,16 @@ const Menu = () => {
             <img src={Logo} alt="" />
           </div>
           <div className="w-8/12">
-            <ul className="flex justify-end">
+            <ul
+              className={`lg:flex justify-end lg:static lg:py-0 py-2 duration-300 ease-in-out ${
+                show == true
+                  ? "bg-headerBgColor absolute left-0 top-[206px] w-full"
+                  : " absolute left-[-1000px] top-[206px] w-full"
+              }`}
+            >
               <li>
                 <a
-                  className="text-white text-[16px] font-semibold font-poppins px-6"
+                  className="text-white lg:text-[16px] text-[14px] lg:font-semibold font-medium font-poppins lg:px-6 lg:py-3.5 inline-block px-5 py-2"
                   href=""
                 >
                   Home
@@ -30,7 +36,7 @@ const Menu = () => {
 
               <li>
                 <a
-                  className="text-white text-[16px] font-semibold font-poppins px-6"
+                  className="text-white lg:text-[16px] text-[14px] lg:font-semibold font-medium font-poppins lg:px-6 lg:py-3.5 inline-block px-5 py-2"
                   href=""
                 >
                   About
@@ -39,7 +45,7 @@ const Menu = () => {
 
               <li>
                 <a
-                  className="text-white text-[16px] font-semibold font-poppins px-6"
+                  className="text-white lg:text-[16px] text-[14px] lg:font-semibold font-medium font-poppins lg:px-6 lg:py-3.5 inline-block px-5 py-2"
                   href=""
                 >
                   Service
@@ -48,7 +54,7 @@ const Menu = () => {
 
               <li>
                 <a
-                  className="text-white text-[16px] font-semibold font-poppins px-6"
+                  className="text-white lg:text-[16px] text-[14px] lg:font-semibold font-medium font-poppins lg:px-6 lg:py-3.5 inline-block px-5 py-2"
                   href=""
                 >
                   Gallery
@@ -57,7 +63,7 @@ const Menu = () => {
 
               <li>
                 <a
-                  className="text-white text-[16px] font-semibold font-poppins px-6"
+                  className="text-white lg:text-[16px] text-[14px] lg:font-semibold font-medium font-poppins lg:px-6 lg:py-3.5 inline-block px-5 py-2"
                   href=""
                 >
                   Blog
@@ -66,7 +72,7 @@ const Menu = () => {
 
               <li>
                 <a
-                  className="text-white text-[16px] font-semibold font-poppins px-7.5 py-3.5 border-2 border-white ml-12"
+                  className="text-white lg:text-[16px] text-[14px] lg:font-semibold font-medium font-poppins lg:px-7.5 lg:py-3.5 border-2 border-white lg:ml-12 ml-4 lg:my-0 my-2 inline-block px-4 py-2"
                   href=""
                 >
                   Contact
@@ -75,7 +81,11 @@ const Menu = () => {
             </ul>
           </div>
           <div className="lg:hidden " onClick={handleShow}>
-            {show ? <IoCloseOutline /> : <IoMenu />}
+            {show ? (
+              <IoCloseOutline className="text-[34px]  text-headerBgColor" />
+            ) : (
+              <IoMenu className="text-[34px] text-headerBgColor" />
+            )}
           </div>
         </div>
       </Container>

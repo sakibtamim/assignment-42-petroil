@@ -68,7 +68,7 @@ const Blog = () => {
 
         <div className="w-full justify-end flex pt-[29px]">
           <h4 className="text-[16px] font-poppins text-black font-bold">
-            MORE FROM THE BLLOG
+            MORE FROM THE BLOG
           </h4>
           <IoIosArrowForward className="text-[24px] text-black font-bold" />
         </div>
