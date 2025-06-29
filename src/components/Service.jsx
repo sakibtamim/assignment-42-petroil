@@ -3,9 +3,9 @@ import React from "react";
 const Service = () => {
   return (
     <div>
-      <div className="flex flex-wrap items-center px-2 gap-2 lg:gap-0">
+      <div className="flex flex-wrap justify-between items-center  gap-2 lg:gap-0">
         <div className="lg:w-1/2 w-[48%]   flex lg:justify-end ">
-          <div className="lg:w-4/12  lg:mr-[149px] w-full">
+          <div className="lg:w-4/12  lg:mr-[149px] pl-[10px] lg:pl-0 w-full">
             <div className=" ">
               <h2 className="lg:text-[64px] text-[18px]  font-poppins text-block font-medium">
                 Our Services

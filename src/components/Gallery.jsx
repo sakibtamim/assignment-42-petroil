@@ -6,7 +6,7 @@ import Gallery04 from "../assets/gallery04.png";
 
 const Gallery = () => {
   return (
-    <section className="w-full px-2">
+    <section className="w-full px-2 lg:px-0">
       <div className="flex flex-wrap justify-between lg:pb-10 pb-5 gap-1.5">
         <div className="lg:w-[24%] w-[49%]">
           <div className="w-[100%]">
