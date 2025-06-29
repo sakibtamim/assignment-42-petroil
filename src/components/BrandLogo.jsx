@@ -7,7 +7,7 @@ import BrandLogo04 from "../assets/brandlogo04.png";
 
 const BrandLogo = () => {
   return (
-    <div className="lg:py-[116px] py-[30px] px-2">
+    <div className="lg:py-[116px] py-[30px]">
       <Container>
         <div className="flex lg:gap-6.5 gap-2">
           <div className="w-1/4">

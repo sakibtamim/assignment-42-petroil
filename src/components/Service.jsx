@@ -3,8 +3,8 @@ import React from "react";
 const Service = () => {
   return (
     <div>
-      <div className="flex flex-wrap justify-between items-center  gap-2 lg:gap-0">
-        <div className="lg:w-1/2 w-[48%]   flex lg:justify-end ">
+      <div className="flex flex-wrap justify-between items-center  gap-1.5 lg:gap-0">
+        <div className="lg:w-1/2 w-[49%]   flex lg:justify-end ">
           <div className="lg:w-4/12  lg:mr-[149px] pl-[10px] lg:pl-0 w-full">
             <div className=" ">
               <h2 className="lg:text-[64px] text-[18px]  font-poppins text-block font-medium">
@@ -18,7 +18,7 @@ const Service = () => {
           </div>
         </div>
         <div
-          className="lg:w-1/2 w-[48%] bg-cover bg-center lg:pl-[116px] pl-[10px]"
+          className="lg:w-1/2 w-[49%] bg-cover bg-center lg:pl-[116px] pl-[10px]"
           style={{
             backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('/servicebg01.png')`,
           }}
@@ -38,7 +38,7 @@ const Service = () => {
           </div>
         </div>
         <div
-          className="lg:w-1/2 w-[48%] bg-cover bg-center lg:pl-[116px] pl-[10px]"
+          className="lg:w-1/2 w-[49%] bg-cover bg-center lg:pl-[116px] pl-[10px]"
           style={{
             backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('/servicebg02.png')`,
           }}
@@ -58,7 +58,7 @@ const Service = () => {
           </div>
         </div>
         <div
-          className="lg:w-1/2 w-[48%] bg-cover bg-center lg:pl-[116px] pl-[10px]"
+          className="lg:w-1/2 w-[49%] bg-cover bg-center lg:pl-[116px] pl-[10px]"
           style={{
             backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('/servicebg03.png')`,
           }}
